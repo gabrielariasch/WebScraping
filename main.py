@@ -12,5 +12,5 @@ soup = bs4.BeautifulSoup(result.text,"lxml")
 
 print('\n')
 
-print("This are the locations")
+print("These are the locations: ")
 print(soup.select('.location'))
